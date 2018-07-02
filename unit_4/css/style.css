@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Nixie+One|Sacramento');
+
+body {
+	font-family: 'News Cycle', sans-serif;
+	line-height: 1.5em;
+	margin:2em;
+	text-align: center;
+	background-image: url("file:///C:/Users/jessica/Desktop/jjmarkham.github.io/unit_3/images/hero.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	color:#000;
+	
+}
+
+h3 {
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+ul {
+	list-style-type: none;
+	position: inside;
+}
+
+#slogan {
+	font-family: 'Nixie One', cursive;
+	font-style: italic;
+}
+
+hr {
+	width: 400px;
+	color:#000;
+}
