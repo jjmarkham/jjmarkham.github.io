@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle|Nixie+One|Sacramento');
-
+img {width:300px;}
+* {margin:0;padding:0;box-sizing: border-box;}
 body {
 	font-family: 'News Cycle', sans-serif;
-	line-height: 1.5em;
-	margin:2em;
+	line-height: 1.5;
 	text-align: center;
-	background-image: url("file:///C:/Users/jessica/Desktop/jjmarkham.github.io/unit_3/images/hero.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	color:#000;
-	
+	color:#333;
 }
-
-h3 {
+section {
+	padding:5em 0;
+}
+#intro {
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 80vh;
+}
+h2 {
 	font-family: 'Sacramento', cursive;
 	font-weight: bold;
 	font-size: 50px;
@@ -21,15 +25,9 @@ h3 {
 
 ul {
 	list-style-type: none;
-	position: inside;
 }
 
 #slogan {
 	font-family: 'Nixie One', cursive;
 	font-style: italic;
-}
-
-hr {
-	width: 400px;
-	color:#000;
 }
