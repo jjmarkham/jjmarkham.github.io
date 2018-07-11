@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Nixie+One|Sacramento');
+img {width:300px;}
+* {margin:0;padding:0;box-sizing: border-box;}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;		
+}
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+body {
+	font-family: 'News Cycle', sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	color:#333;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding:20px;
+}
+#intro {
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 80vh;
+}
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#slogan {
+	font-family: 'Nixie One', cursive;
+	font-style: italic;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px solid black;
+	padding: 20px;
+}
+article {
+	background-color:#E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid
+	padding: 20px;
+}
