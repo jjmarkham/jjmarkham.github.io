@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Nixie+One|Sacramento');
+img {width:300px;}
+* {margin:0;padding:0;box-sizing: border-box;}
+header {
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	padding: 20px;		
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+nav{
+	background-color: #333;
+	color: white;
+	border: 1px black solid;
+	text-decoration:none;
+	display: block;
+	float: left;
+	padding: 20px;
+	width:100%;
+}
+nav a {
+  text-decoration:none;
+  color: white;
+  margin: 1.8em;
+  display: inline-block;
+}
+#topbar {
+	width: 100%;
+}
+a:hover {
+	color: rgba(63,191,127,1);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.column {
+	float:left;
+	width:33%;
+	height:300px;
+	padding: 4.17%;
+	margin: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#contact {
+	background-color: #333;
+	color: white;
+	border: 1px black solid;
+	text-decoration:none;
+	display: block;
+	float: left;
+	padding: 20px;
+	width:100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+body {
+	font-family: 'News Cycle', sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	color:#333;
+}
+section {
+	background-image: url("../images/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	padding:20px;
+	width: 100%;
+}
+#intro {
+	height: 80vh;
+}
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(63,191,127,1)
+}
+
+ul {
+	list-style-type: none;
+}
+
+#slogan {
+	font-family: 'Nixie One', cursive;
+	font-style: italic;
+}
+
+aside {
+	background-color: #333;
+	border: 1px solid black;
+	padding: 20px;
+}
+article {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#group {
+	background-color: rgba(63,191,127,0.3);
+	border:1px solid black;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+#blog1{
+	float: left;
+	width: 62%;
+	padding: 20px;
+	margin: 0;
+	opacity: 1;
+}
+
+#image1 {
+	float: right;
+	width: 30%;
+	padding: 20px;
+	margin: 20px;
+}
+
+#blog2{
+	float: right;
+	width: 62%;
+	padding: 20px;
+	margin: 20px;
+}
+
+#image2 {
+	float: left;
+	width: 30%;
+	padding: 20px;
+	margin: 20px;
+}
+
+#blog3{
+	float: left;
+	width: 62%;
+	padding: 20px;
+	margin: 20px;
+}
+
+#image3 {
+	float: right;
+	width: 30%;
+	padding: 20px;
+	margin: 20px;
+}
+
+footer {
+	background-color: #333;
+	border: 1px black solid
+	padding: 20px;
+	color: white;
+}
