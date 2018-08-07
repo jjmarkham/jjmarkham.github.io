@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Nixie+One|Sacramento');
+* {margin:0;padding:0;box-sizing: border-box;}
+header {
+	padding: 5em;
+}
+img {
+	width:100%;
+	height: auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+nav{
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+	float: left;
+	width:100%;
+}
+nav a {
+  text-decoration:none;
+  color: white;
+  margin: 1.8em;
+  display: inline-block;
+  font-family: 'Nixie One';
+}
+#topbar {
+	width: 100%;
+}
+a:hover {
+	color: #e0b1da;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#column {
+	float:left;
+	width:33.33%;
+	height:auto;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#contact {
+	background-color: #333;
+	color: white;
+	text-decoration:none;
+	display: block;
+	float: left;
+	padding: 1em;
+	width:100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+body {
+	font-family: 'News Cycle', sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	color:#333;
+}
+section {
+	padding:1em;
+	width: 100%;
+}
+.container {
+	position: relative;
+	text-align: center;
+	color: #333;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Nixie One', cursive;
+	font-size: 3em;
+	font-style: italic;
+	font-weight: bold;
+	color:#333;
+	line-height: 1.5em;
+}
+
+#slogan {
+	font-family: 'Nixie One', cursive;
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+}
+h2:hover {
+	color: #e0b1da;
+}
+h2 {
+	text-decoration: none;
+	font-family: 'Nixie One', cursive;
+	font-size: 4em;
+	color: white;
+	border: 1em white;
+}
+
+footer {
+	background-color: #333;
+	padding: 1em;
+	color: white;
+	text-decoration: none;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 800px){
+	nav {
+		float:none;
+	}
+	nav a {
+		display: block;
+		padding: 2em;
+	}
+	img {
+		width:100%;
+	}
+	header {
+		padding: 1em;
+	}
+	#column {
+		float: none;
+		width: 100%;
+	}
+	#imgone {
+		display: none;
+	}
+	.centered{
+		float: none;
+		position: relative;
+		font-size: 3em;
+		line-height: 1em;
+		padding: .5em;
+	}
+
+	}
+}
